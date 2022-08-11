@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 15rem 0;
+}
+h1{
+    transition: .6s;
+}
+h1:hover{
+    color: #ff7315;
+}
+.eror{
+    position: relative;
+}
+p  a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top: 35px;
+    right: -80px;
+}

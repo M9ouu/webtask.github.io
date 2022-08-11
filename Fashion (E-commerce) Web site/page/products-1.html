@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ==============Jquery============ -->
+    <link
+      rel="stylesheet"
+      href="../owl-ca/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../owl-ca/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../Jquery/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/dist/xzoom.css"
+    />
+    <!-- ============== bootstrap ============== -->
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css" />
+    <!-- ============== bootstrap ============== -->
+    <!-- ============== Font Family ============== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ============== Font Family ============== -->
+    <!-- ============== css file ============== -->
+    <link rel="stylesheet" href="../css/products-1.css" />
+    <!-- ============== css file ============== -->
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- =======slider start========== -->
+    <div class="slider-section">
+      <div class="slider-up-line">
+        <div class="slider-left">
+          <h6>UPTO 30% OFF ON ALL STYLES,</h6>
+          <a href=""
+            >Click here for
+            <span><i class="fa-solid fa-hand-point-right"></i></span>
+            <span class="highlight">More Details</span>
+          </a>
+        </div>
+        <div class="slider-right">
+          <div class="user-icon">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="my-cart">
+            <h4>My Cart<i class="fa-solid fa-cart-arrow-down"></i></h4>
+          </div>
+        </div>
+      </div>
+      <div class="slider-dn-line">
+        <div class="logo">
+          <a href="#">SPRY<span>S</span>TORE</a>
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h5>Search Box</h5>
+          </div>
+       <!-- Side baar -->
+       <button
+       class="btn btn-primary btntn"
+       type="button"
+       data-bs-toggle="offcanvas"
+       data-bs-target="#offcanvasExample"
+       aria-controls="offcanvasExample"
+     >
+       <i class="fa-solid fa-bars"></i>
+     </button>
+     <div
+       class="offcanvas offcanvas-start"
+       tabindex="-1"
+       id="offcanvasExample"
+       aria-labelledby="offcanvasExampleLabel"
+     >
+       <div class="offcanvas-header">
+         <h5
+           class="offcanvas-title text-black ttil"
+           id="offcanvasExampleLabel"
+         >
+         <div class="logo1 text-black">
+           <a href="" class="text-dark">SPRY<span>S</span>TORE</a>
+         </h5>
+         <button
+           type="button"
+           class="btn-close"
+           data-bs-dismiss="offcanvas"
+           aria-label="Close"
+         ></button>
+       </div>
+       <div class="offcanvas-body">
+         <span><a class="text-dark" href="../index/index.html">Home</a></span>
+         <span><a class="text-dark" href="../page/About.html">About</a></span>
+         <div class="btn-group">
+           <button class="btn  btn-sm" type="button">
+             Shopping
+           </button>
+           <button
+             type="button"
+             class="btn btn-sm  dropdown-toggle dropdown-toggle-split"
+             data-bs-toggle="dropdown"
+             aria-expanded="false"
+           >
+             <span class="visually-hidden">Toggle Dropdown</span>
+           </button>
+           <ul class="dropdown-menu">
+             <li>
+               <a class="dropdown-item" href="../page/handbag.html"
+                 >HandBag Product</a
+               >
+             </li>
+             <li>
+               <a class="dropdown-item" href="../page/handbag-1.html"
+                 >Handbag Cart</a
+               >
+             </li>
+             <li>
+               <a class="dropdown-item" href="../page/products.html"
+                 >Products Detail</a
+               >
+             </li>
+             <li>
+               <a class="dropdown-item" href="../page/products-1.html"
+                 >Products Cart</a
+               >
+             </li>
+           </ul>
+         </div>
+         <div class="btn-group">
+           <button class="btn btn-sm" type="button">
+             Blog
+           </button>
+           <button
+             type="button"
+             class="btn btn-sm dropdown-toggle dropdown-toggle-split"
+             data-bs-toggle="dropdown"
+             aria-expanded="false"
+           >
+             <span class="visually-hidden">Toggle Dropdown</span>
+           </button>
+           <ul class="dropdown-menu">
+             <li><a class="dropdown-item" href="../page/Blog.html">Blog</a></li>
+             <li><a class="dropdown-item" href="../page/Blog Single.html">Blog Single</a></li>
+           </ul>
+         </div>
+         <span><a class="text-dark" href="../page/Contact.html">Contact</a></span>
+       </div>
+       
+     </div>
+     <!-- Side baar -->
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index/index.html">HOME</a></li>
+            <li><a href="../page/About.html">ABOUT</a></li>
+            <li>
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SHOPPING
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a class="dropdown-item" href="../page/handbag.html"
+                      >HandBag Product</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../page/handbag-1.html"
+                      >Handbag Cart</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../page/products.html"
+                      >Products Detail</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../page/products-1.html"
+                      >Products Cart</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  BLOG
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="slider-text">
+          <h1>Products Cart</h1>
+          <span
+            ><a href="../index/index.html"> Home </a>
+            <i class="fa-solid fa-angles-right"></i>
+            <a href=""> About </a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- =======slider start========== -->
+    <!-- =======Products desp start========== -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="img-left-box col-lg-5 col-12">
+            <img
+              class="xzoom"
+              src="../image/cart1 dn-1.jpg"
+              width="600px"
+              xoriginal="../image/cart1 dn-1.jpg"
+            />
+
+            <div class="xzoom-thumbs">
+              <a href="../image/cart1 dn-1.jpg">
+                <img
+                  class="xzoom-gallery"
+                  width="120"
+                  src="../image/cart1 dn-1.jpg"
+                />
+              </a>
+              <a href="../image/cart2 dn-2.jpg">
+                <img
+                  class="xzoom-gallery"
+                  width="120"
+                  src="../image/cart2 dn-2.jpg"
+                />
+              </a>
+              <a href="../image/cart3 dn-3.jpg">
+                <img
+                  class="xzoom-gallery"
+                  width="120"
+                  src="../image/cart3 dn-3.jpg"
+                />
+              </a>
+              <a href="../image/cart4 dn-4.jpg">
+                <img
+                  class="xzoom-gallery"
+                  width="120"
+                  src="../image/cart4 dn-4.jpg"
+                />
+              </a>
+            </div>
+            <div class="but-n mt-4">
+              <button type="button" class="bll col-6" id="liveToast">
+                <a href="#">ADD TO CART</a>
+              </button>
+              <button class="orr col-6"><a href="">BUY NOW</a></button>
+            </div>
+          </div>
+          <!-- bootstrap btn -->
+          <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div
+              id="liveToast"
+              class="toast p-3"
+              role="alert"
+              aria-live="assertive"
+              aria-atomic="true"
+            >
+              <div class="toast-header">
+                <strong class="me-auto">CART</strong>
+                <small>11 mins ago</small>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="toast"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="bag-desp p-2">
+                <div class="textt">
+                  <h6>RED HANDBAG</h6>
+                </div>
+                <div class="prii">
+                  <input type="number" />
+                  <button
+                    type="button"
+                    class="btn-close"
+                    id="btt"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                  <h5 mt-2>$99.99</h5>
+                </div>
+              </div>
+              <div class="tott">
+                <div class="parr mt-2">
+                  <h5>Subtotal:99.99 USD</h5>
+                </div>
+                <div class="che">
+                  <span>CHECK OUT</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- bootstrap btn -->
+          <div class="desp-right-box col-lg-7 col-12">
+            <h3 class="mb-4">Striped Men Round Neck Yellow T-Shirt</h3>
+            <div class="star-pri-box mb-4">
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h6>$575</h6>
+              <span>$1,199</span>
+              <p>Free Delivery</p>
+            </div>
+            <ul class="price-off mb-4">
+              <li>
+                <span>Special Price</span> Get extra 5% off (price inclusive of
+                discount)
+              </li>
+              <li>
+                <span>Bank Offer</span> 5% Unlimited Cashback on Flipkart Axis
+                Bank Credit Card
+              </li>
+              <li>
+                <span>Bank Offer</span> 5% Cashback* on HDFC Bank Debit Cards
+              </li>
+              <li>
+                <span>Bank Offer</span> Extra 5% off* with Axis Bank Buzz Credit
+                Card
+              </li>
+            </ul>
+            <h6>Description:</h6>
+            <p class="des-p mb-4">
+              Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Facere,
+              Ratione Et Ipsam Velit Explicabo Deleniti Obcaecati A, Numquam,
+              Unde Quisquam Quas Quae Accusamus Eveniet Magni. Nobis Iure Et
+              Porro Aut Nobis Iure Et Porro Aut..
+            </p>
+            <div class="row mb-4">
+              <div class="left-ddsp col-6">
+                <h6>Highlights:</h6>
+                <p>Neck : Round Neck</p>
+                <p>Fit : Regular</p>
+                <p>Sleeve : Half Sleeve</p>
+                <p>Material : Pure Cutton</p>
+              </div>
+              <div class="right-ddsp col-6">
+                <h6>Services:</h6>
+                <p>30 Day Return Policy</p>
+                <p>Cash On Delivery Available</span>
+              </div>
+            </div>
+            <h5>Check delivery, payment options and charges at your location</h5>
+            <form action="#" method="post" class="mt-4">
+                <input type="text" placeholder="Enter Pincode">
+                <button class="submit btn" type="submit"> <a href="">Check</a></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =======Products desp end========== -->
+    <!-- =========Cloth sec start=========== -->
+    <div class="container-fluid">
+        <div class="container">
+            <h2 class="text-center">FEATURED <span>PRODUCTS </span></h2>
+          <p class="text-center mb-5">Handpicked Favourites just for you</p>
+            <div class="row pt-5">
+                <div class="col-lg-3 col-6">
+                  <div class="coulmn">
+                    <div class="box-1-ol">
+                      <div class="shop-img-box">
+                        <div class="img-sec-box">
+                          <img src="../Image/shop-5.jpg" alt="" class="img-1" />
+                          <img src="../Image/shop-55.jpg" alt="" class="img-2" />
+                        </div>
+                        <div class="img-icon">
+                          <ul class="menu">
+                            <li class="list">
+                              <div class="i-1">
+                                <i class="fa-solid fa-eye"></i>
+                              </div>
+                            </li>
+                            <li class="list">
+                              <div class="i-2">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="img-name text-center">
+                          <a href="#">Add to Card</a>
+                        </div>
+                      </div>
+                      <div class="shop-img-desp pt-3">
+                        <h5 class="text-center para">Women Maroon Top</h5>
+                        <p class="text-center para-1"><span>$975.00</span>$899.99</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                  <div class="coulmn">
+                    <div class="box-1-ol">
+                      <div class="shop-img-box">
+                        <div class="img-sec-box">
+                          <img src="../Image/shop-6.jpg" alt="" class="img-1" />
+                          <img src="../Image/shop-6.jpg" alt="" class="img-2" />
+                        </div>
+                        <div class="img-icon">
+                          <ul class="menu">
+                            <li class="list">
+                              <div class="i-1">
+                                <i class="fa-solid fa-eye"></i>
+                              </div>
+                            </li>
+                            <li class="list">
+                              <div class="i-2">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="img-name text-center">
+                          <a href="#">Add to Card</a>
+                        </div>
+                      </div>
+                      <div class="shop-img-desp pt-3">
+                        <h5 class="text-center para">Women Maroon Top</h5>
+                        <p class="text-center para-1"><span>$975.00</span>$899.99</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                  <div class="coulmn">
+                    <div class="box-1-ol">
+                      <div class="shop-img-box">
+                        <div class="img-sec-box">
+                          <img src="../Image/shop-7.jpg" alt="" class="img-1" />
+                          <img src="../Image/shop-77.jpg" alt="" class="img-2" />
+                        </div>
+                        <div class="img-icon">
+                          <ul class="menu">
+                            <li class="list">
+                              <div class="i-1">
+                                <i class="fa-solid fa-eye"></i>
+                              </div>
+                            </li>
+                            <li class="list">
+                              <div class="i-2">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="img-name text-center">
+                          <a href="#">Add to Card</a>
+                        </div>
+                      </div>
+                      <div class="shop-img-desp pt-3">
+                        <h5 class="text-center para">Women Maroon Top</h5>
+                        <p class="text-center para-1"><span>$975.00</span>$899.99</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                  <div class="coulmn">
+                    <div class="box-1-ol">
+                      <div class="shop-img-box">
+                        <div class="img-sec-box">
+                          <img src="../Image/shop-8.jpg" alt="" class="img-1" />
+                          <img src="../Image/shop-88.jpg" alt="" class="img-2" />
+                        </div>
+                        <div class="img-icon">
+                          <ul class="menu">
+                            <li class="list">
+                              <div class="i-1">
+                                <i class="fa-solid fa-eye"></i>
+                              </div>
+                            </li>
+                            <li class="list">
+                              <div class="i-2">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="img-name text-center">
+                          <a href="#">Add to Card</a>
+                        </div>
+                      </div>
+                      <div class="shop-img-desp pt-3">
+                        <h5 class="text-center para">Women Maroon Top</h5>
+                        <p class="text-center para-1"><span>$975.00</span>$899.99</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!-- =========Cloth sec end============= -->
+     <!-- ==========Footer section start========== -->
+     <div class="container-fliud B-G">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-12 footer-sec-box pt-5">
+              <h2 class="mb-4">SPRY<span>S</span>TORE</h2>
+              <p class="mb-5">
+                Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam
+                sequi optio consectetur.Vivamus a ligula quam. Ut blandit eu leo
+                non suscipit.
+              </p>
+              <div class="I-C-O-N-S">
+                <div class="fb"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="tw"><i class="fa-brands fa-twitter"></i></div>
+                <div class="g"><i class="fa-brands fa-google-plus-g"></i></div>
+                <div class="in"><i class="fa-brands fa-instagram"></i></div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-12 footer-sec-box-2 pt-5">
+              <h3 class="text-white">
+                Women's Day Special Offer All Branded Sandals are Flat 50%
+                Discount
+              </h3>
+              <div class="sub-coulmn">
+                <div class="sub-one-left">
+                  <h6>usefule links</h6>
+                  <div class="footer-ul">
+                    <ul class="ul">
+                      <li>Home</li>
+                      <li>About</li>
+                      <li>Blog</li>
+                      <li>Contact</li>
+                    </ul>
+                    <ul class="ul">
+                      <li>Careers</li>
+                      <li>Privacy Policy</li>
+                      <li>Terms</li>
+                      <li>Support</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="sub-two-right">
+                  <h6>our store</h6>
+                  <p class="mb-5">
+                    49436 Broaddus Honey Court Avenue, Madisonville KY 95020,
+                    United States of America
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer section end -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../Jquery/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/dist/xzoom.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/setup.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".xzoom , .xzoom-gallery").xzoom({
+          mposition: "inside",
+          fadeIn: true,
+          autoplay: true,
+        });
+      });
+    </script>
+     <script src="../../../Bootstrap/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

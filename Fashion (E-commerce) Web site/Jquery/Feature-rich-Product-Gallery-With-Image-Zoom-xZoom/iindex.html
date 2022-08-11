@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/xzoom.css" />
+    <style>
+      .xzoom-thumbs {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      class="xzoom"
+      src="img/img-1.jpg"
+      width="600px"
+      xoriginal="img/img-1.jpg"
+    />
+
+    <div class="xzoom-thumbs">
+      <a href="img/img-2.jpg">
+        <img class="xzoom-gallery" width="120" src="img/img-2.jpg" />
+      </a>
+      <a href="img/img-3.jpg">
+        <img class="xzoom-gallery" width="120" src="img/img-3.jpg" />
+      </a>
+      <a href="img/img-4.jpg">
+        <img class="xzoom-gallery" width="120" src="img/img-4.jpg" />
+      </a>
+      <a href="img/img-1.jpg">
+        <img class="xzoom-gallery" width="120" src="img/img-1.jpg" />
+      </a>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="dist/xzoom.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/setup.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".xzoom , .xzoom-gallery").xzoom({
+          mposition: "inside",
+          fadeIn: true,
+        });
+      });
+    </script>
+  </body>
+</html>

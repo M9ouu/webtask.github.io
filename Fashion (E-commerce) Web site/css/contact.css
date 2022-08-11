@@ -1,0 +1,426 @@
+*{
+    list-style: none;
+  }
+  .slider-section{
+    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/30-04-2020/sprystore-liberty-demo_Free/1528800197/web/assets/images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+  }
+  .slider-up-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 12px 5px 12px;
+  }
+  .slider-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .slider-left a{
+    text-decoration: none;
+  }
+  .slider-left h6{
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+  }
+  .slider-left a{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+  }
+  .slider-left a span{
+    color: #ff7315;
+  }
+  .slider-left a span i{
+    color: white;
+  }
+  .slider-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .slider-right .user-icon{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(255, 255, 255, .141);
+  }
+  .user-icon i{
+    font-size: 18px;
+  }
+  .my-cart h4{
+    font-size: 18px;
+    margin-bottom: 0px;
+    color: white;
+  }
+  .my-cart{
+    width: 120px;
+    height: 37px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider-dn-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 12px;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+  }
+  .logo a{
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+  }
+  .logo a span{
+    color: #ff7315;
+  }
+  .search-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+  }
+  .search-box h5{
+    margin-bottom: 0px;
+  }
+  nav ul{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   color: white;
+   margin-bottom: 0px;
+   font-weight: 600;
+  }
+  nav ul li a{
+    text-decoration: none;
+    transition: .4s;
+    color: white;
+  }
+  nav ul li a:hover{
+    color: #ff7315;
+  }
+  nav ul li{
+    padding: .375rem .75rem;
+    transition: .4s;
+  }
+  nav ul .btn{
+    color: white;
+    transition: .4s;
+   font-weight: 600;
+  }
+  nav ul .btn:hover{
+    color: #ff7315;
+  }
+  .slider-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:7rem 0 4rem 0;
+  }
+  .slider-text h1{
+    font-weight: 700;
+    color: white;
+  }
+  .slider-text a{
+    color: white;
+    text-decoration: none;
+  }
+  .fa-angles-right:before {
+    content: "\f101";
+    color: white;
+  }
+  .btntn{
+    display: none !important;
+  }
+  @media screen and (max-width:576px) {
+    nav ul{
+      display: none;
+    }
+    .slider-left{
+      display: none;
+    }
+    .slider-right {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+    .my-cart{
+      position: absolute;
+      top: 0;
+      right: -27rem;
+    }
+    .search-box h5{
+      display: none;
+    }
+    .logo{
+      gap: 7.5rem;
+    }
+    .logo a{
+      font-size: 30px;
+    }
+    .btntn{
+      display: block !important;
+    }
+    .offcanvas{
+      max-width: 80%;
+      /* background-color: #cd641f; */
+    }
+    .dropdown-menu{
+      background-color: #666;
+    }
+    .dropdown-menu a{
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .offcanvas-body span a{
+      font-size: 16px !important;
+      color: #232020 !important;
+    }
+    .offcanvas-body{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .btn-group button{
+      border: none;
+      text-align: left;
+      font-weight: 700;
+    }
+  }
+  /* ===========Contact sec-1 start========= */
+  .text-left h3{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .text-left h3 span{
+    color: #ff7315;
+  }
+  .text-left p span{
+    color: #ff7315;
+  }
+  .text-left p{
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .text-left h6{
+    color: #6b778d;
+  }
+  .text-left h5{
+    font-size: 22px;
+    font-weight: 600;
+  }
+ .bus{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+ .psa{
+    padding: 48px 80px;
+ }
+  iframe{
+    width: 100% ;
+    min-height: 100% ;
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  @media screen and (max-width:576px) {
+    .psa{
+        padding: 48px 0px;
+     }
+  }
+  /* ==========contact sec-1 end======= */
+  /* ==========Contact sec-2 start======== */
+  .back-img{
+    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/30-04-2020/sprystore-liberty-demo_Free/1528800197/web/assets/images/banner4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.632);
+    background-blend-mode: overlay;
+  }
+  .form h2{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .input-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+  .input-grid input{
+    background-color: white;
+    border: none;
+    color: #6b778d;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 16px 20px;
+    width: 100%;
+    border-radius: 6px;
+  }
+  .input-textaria textarea{
+    resize: none;
+    min-height: 100px;
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 6px;
+    padding: 15px 15px;
+  }
+  form button{
+   padding: 14px 60px;
+   background: #ff7315;
+   border-radius: 6px;
+   transition: .4s;
+  }
+  form button a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    transition: .4s;
+  }
+  form button:hover{
+    background-color: #cd641f;
+  }
+  form button a:hover{
+    color: black;
+  }
+  @media screen and (max-width:576px) {
+    .input-grid{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap: 15px;
+      }
+  }
+  /* ==========Contact sec-2 end======== */
+
+  /* ===========Contact sec-1 end========= *//* footer sec start */
+.B-G{
+    background-color: #232020;
+    padding: 3rem 0;
+  }
+  .footer-sec-box{
+    padding: 0 15px;
+  }
+  .footer-sec-box h2{
+    color: white;
+    font-size: 30px;
+  }
+  .footer-sec-box span{
+    color: #ff7315;
+  }
+  .footer-sec-box p{
+    color: #a09292;
+  }
+  .I-C-O-N-S{
+    display: flex;
+    gap: 20px;
+  }
+  .fb{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3a3535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .tw{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3a3535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .g{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3a3535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .in{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3a3535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .footer-sec-box-2{
+    padding: 0 15px;
+  }
+  .footer-sec-box-2 h3{
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .sub-coulmn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 60px;
+  }
+  .sub-coulmn h6{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    line-height: 20px;
+  }
+  .footer-ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding-left: 0 !important;
+  }
+  .ul{
+    padding-left: 0;
+  }
+  .ul li{
+    padding: 5px 0;
+  }
+  .footer-ul ul{
+    text-align: left;
+  }
+  .footer-ul li{
+    color: #a09292;
+  }
+  .sub-two-right p{
+    color: #a09292;
+  }
+  @media screen and (max-width:500px) {
+    .footer-sec-box-2 h3{
+      font-size: 28px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+  /* footer sec end */

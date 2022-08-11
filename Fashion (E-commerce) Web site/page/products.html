@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ==============Jquery============ -->
+    <link
+      rel="stylesheet"
+      href="../owl-ca/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../owl-ca/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+    <!-- ============== bootstrap ============== -->
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css" />
+    <!-- ============== bootstrap ============== -->
+    <!-- ============== Font Family ============== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ============== Font Family ============== -->
+    <!-- ============== css file ============== -->
+    <link rel="stylesheet" href="../css/products-page.css" />
+    <!-- ============== css file ============== -->
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- =======slider start========== -->
+    <div class="slider-section">
+      <div class="slider-up-line">
+        <div class="slider-left">
+          <h6>UPTO 30% OFF ON ALL STYLES,</h6>
+          <a href=""
+            >Click here for
+            <span><i class="fa-solid fa-hand-point-right"></i></span>
+            <span class="highlight">More Details</span>
+          </a>
+        </div>
+        <div class="slider-right">
+          <div class="user-icon">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="my-cart">
+            <h4>My Cart<i class="fa-solid fa-cart-arrow-down"></i></h4>
+          </div>
+        </div>
+      </div>
+      <div class="slider-dn-line">
+        <div class="logo">
+          <a href="#">SPRY<span>S</span>TORE</a>
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h5>Search Box</h5>
+          </div>
+           <!-- Side baar -->
+           <button
+           class="btn btn-primary btntn"
+           type="button"
+           data-bs-toggle="offcanvas"
+           data-bs-target="#offcanvasExample"
+           aria-controls="offcanvasExample"
+         >
+           <i class="fa-solid fa-bars"></i>
+         </button>
+         <div
+           class="offcanvas offcanvas-start"
+           tabindex="-1"
+           id="offcanvasExample"
+           aria-labelledby="offcanvasExampleLabel"
+         >
+           <div class="offcanvas-header">
+             <h5
+               class="offcanvas-title text-black ttil"
+               id="offcanvasExampleLabel"
+             >
+             <div class="logo1 text-black">
+               <a href="" class="text-dark">SPRY<span>S</span>TORE</a>
+             </h5>
+             <button
+               type="button"
+               class="btn-close"
+               data-bs-dismiss="offcanvas"
+               aria-label="Close"
+             ></button>
+           </div>
+           <div class="offcanvas-body">
+             <span><a class="text-dark" href="../index/index.html">Home</a></span>
+             <span><a class="text-dark" href="../page/About.html">About</a></span>
+             <div class="btn-group">
+               <button class="btn  btn-sm" type="button">
+                 Shopping
+               </button>
+               <button
+                 type="button"
+                 class="btn btn-sm  dropdown-toggle dropdown-toggle-split"
+                 data-bs-toggle="dropdown"
+                 aria-expanded="false"
+               >
+                 <span class="visually-hidden">Toggle Dropdown</span>
+               </button>
+               <ul class="dropdown-menu">
+                 <li>
+                   <a class="dropdown-item" href="../page/handbag.html"
+                     >HandBag Product</a
+                   >
+                 </li>
+                 <li>
+                   <a class="dropdown-item" href="../page/handbag-1.html"
+                     >Handbag Cart</a
+                   >
+                 </li>
+                 <li>
+                   <a class="dropdown-item" href="../page/products.html"
+                     >Products Detail</a
+                   >
+                 </li>
+                 <li>
+                   <a class="dropdown-item" href="../page/products-1.html"
+                     >Products Cart</a
+                   >
+                 </li>
+               </ul>
+             </div>
+             <div class="btn-group">
+               <button class="btn btn-sm" type="button">
+                 Blog
+               </button>
+               <button
+                 type="button"
+                 class="btn btn-sm dropdown-toggle dropdown-toggle-split"
+                 data-bs-toggle="dropdown"
+                 aria-expanded="false"
+               >
+                 <span class="visually-hidden">Toggle Dropdown</span>
+               </button>
+               <ul class="dropdown-menu">
+                 <li><a class="dropdown-item" href="../page/Blog.html">Blog</a></li>
+                 <li><a class="dropdown-item" href="../page/Blog Single.html">Blog Single</a></li>
+               </ul>
+             </div>
+             <span><a class="text-dark" href="../page/Contact.html">Contact</a></span>
+           </div>
+           
+         </div>
+         <!-- Side baar -->
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index/index.html">HOME</a></li>
+            <li><a href="../page/About.html">ABOUT</a></li>
+            <li>
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SHOPPING
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a class="dropdown-item" href="../page/handbag.html"
+                      >HandBag Product</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../page/handbag-1.html"
+                      >Handbag Cart</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../page/products.html"
+                      >Products Detail</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../page/products-1.html"
+                      >Products Cart</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  BLOG
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="slider-text">
+          <h1>Products Detail</h1>
+          <span
+            ><a href="../index/index.html"> Home </a>
+            <i class="fa-solid fa-angles-right"></i>
+            <a href=""> About </a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- =======slider start========== -->
+    <!-- Shop us section start -->
+    <div class="container-fluid shop-sec">
+      <div class="container">
+        <div class="sam-text pb-5">
+          <h1 class="text-center">SHOP WITH <span>US</span></h1>
+          <h5><span>/</span> <a href="../index/index.html">Home</a></h5>
+          <p class="text-center">Handpicked Favourites just for you</p>
+        </div>
+        <div class="row rev">
+          <div class="left-products-desp col-lg-3 offcet-1 col-12 p-4">
+            <h6 class="mb-4">SEARCH <span>HERE</span></h6>
+            <!-- search-box start-->
+            <div class="row box-i mb-5">
+              <input type="text" placeholder="Search here..." class="col-9" />
+              <div class="ico-n col-2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <!-- search-box end-->
+            <h6 class="mb-4">PRODUCT <span>CATEGORIES</span></h6>
+            <div class="categores">
+              <p>Accessories</p>
+              <div class="num">
+                <span>14</span>
+              </div>
+            </div>
+            <div class="categores">
+              <p>Accessories</p>
+              <div class="num">
+                <span>14</span>
+              </div>
+            </div>
+            <div class="categores">
+              <p>Accessories</p>
+              <div class="num">
+                <span>14</span>
+              </div>
+            </div>
+            <div class="categores">
+              <p>Accessories</p>
+              <div class="num">
+                <span>14</span>
+              </div>
+            </div>
+            <h6 class="mt-4">FILTER BY <span>PRICE</span></h6>
+            <div class="wraper">
+              <div class="price-input">
+                <div class="field">
+                  <span><i class="fa-solid fa-dollar-sign"></i></span>
+                  <input type="number" class="input-min" value="50" />
+                </div>
+                <div class="separator">-</div>
+                <div class="field">
+                  <span><i class="fa-solid fa-dollar-sign"></i></span>
+                  <input type="number" class="input-max" value="6000" />
+                </div>
+              </div>
+              <div class="slider">
+                <div class="progres"></div>
+              </div>
+              <div class="range-input">
+                <input
+                  type="range"
+                  class="range-min"
+                  min="0"
+                  max="10000"
+                  value="50"
+                />
+                <input
+                  type="range"
+                  class="range-max"
+                  min="0"
+                  max="10000"
+                  value="7000"
+                />
+              </div>
+            </div>
+            <h6 class="mt-2">DISCOUNT</h6>
+            <div class="discount-box mt-2">
+              <div class="square">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div class="text-dis">
+                <p>15% or More</p>
+              </div>
+            </div>
+            <div class="discount-box mt-2">
+              <div class="square no"></div>
+              <div class="text-dis">
+                <p>20% or More</p>
+              </div>
+            </div>
+            <div class="discount-box mt-2">
+              <div class="square no"></div>
+              <div class="text-dis">
+                <p>35% or More</p>
+              </div>
+            </div>
+            <div class="discount-box mt-2">
+              <div class="square no"></div>
+              <div class="text-dis">
+                <p>55% or More</p>
+              </div>
+            </div>
+            <div class="discount-box mt-2">
+              <div class="square no"></div>
+              <div class="text-dis">
+                <p>60% or More</p>
+              </div>
+            </div>
+            <div class="discount-box mt-2">
+              <div class="square no"></div>
+              <div class="text-dis">
+                <p>75% or More</p>
+              </div>
+            </div>
+            <h6 class="mt-5 mb-4">CUSTOMER <span>COLOR</span></h6>
+            <div class="colorr">
+              <div class="red">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div class="light-blue">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div class="light-pink">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div class="blue">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div class="green">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div class="skyblue">
+                <i class="fa-solid fa-check"></i>
+              </div>
+            </div>
+            <h6 class="mt-5 mb-4">CUSTOMER <span>RATINGS</span></h6>
+            <div class="rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>4.0</p>
+              </span>
+            </div>
+            <div class="rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>3.0</p>
+              </span>
+            </div>
+            <div class="rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>5.0</p>
+              </span>
+            </div>
+            <div class="rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>2.0</p>
+              </span>
+            </div>
+            <div class="rating mb-4">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>5.0</p>
+              </span>
+            </div>
+            <h6 class="mb-4">RECENT <span>PRODUCTS</span></h6>
+            <div class="pro-box">
+              <div class="img-pro-b">
+                <img
+                  src="https://demo.w3layouts.com/demos_new/template_demo/30-04-2020/sprystore-liberty-demo_Free/1528800197/web/assets/images/shop-88.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="pro-det">
+                <h4>RED HANDBAG</h4>
+                <span>$199.00</span>
+              </div>
+            </div>
+            <div class="pro-box mt-3">
+              <div class="img-pro-b">
+                <img
+                  src="https://demo.w3layouts.com/demos_new/template_demo/30-04-2020/sprystore-liberty-demo_Free/1528800197/web/assets/images/shop-77.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="pro-det">
+                <h4>white HANDBAG</h4>
+                <span>$199.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="right-products col-lg-8 ps-lg-5 col-12 pe-3">
+            <!-- Showing-result -->
+            <div class="row mb-5 showing">
+              <div class="result col-6">
+                <h5>Showing All 12 Results</h5>
+              </div>
+              <div class="inp col-6">
+                <select value="" class="daa">
+                  <option value="Default Sorting">Default Sorting</option>
+                  <option value="">Woman Hand Bag</option>
+                  <option value="">Woman Hand Bag</option>
+                  <option value="">Woman Hand Bag</option>
+                  <option value="">Woman Hand Bag</option>
+                </select>
+              </div>
+            </div>
+            <!-- showing-result -->
+            <div class="row">
+              <div class="col-lg-4 col-6">
+                <div class="coulmn">
+                  <div class="box-1-ol">
+                    <div class="shop-img-box">
+                      <div class="img-sec-box">
+                        <img src="../Image/shop-5.jpg" alt="" class="img-1" />
+                        <img src="../Image/shop-55.jpg" alt="" class="img-2" />
+                      </div>
+                      <div class="img-icon">
+                        <ul class="menu">
+                          <li class="list">
+                            <div class="i-1">
+                              <i class="fa-solid fa-eye"></i>
+                            </div>
+                          </li>
+                          <li class="list">
+                            <div class="i-2">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="img-name text-center">
+                        <a href="#">Add to Card</a>
+                      </div>
+                    </div>
+                    <div class="shop-img-desp pt-3">
+                      <h5 class="text-center para">Women Maroon Top</h5>
+                      <p class="text-center para-1">
+                        <span>$975.00</span>$899.99
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-6">
+                <div class="coulmn">
+                  <div class="box-1-ol">
+                    <div class="shop-img-box">
+                      <div class="img-sec-box">
+                        <img src="../Image/shop-2.jpg" alt="" class="img-1" />
+                        <img src="../Image/shop-22.jpg" alt="" class="img-2" />
+                      </div>
+                      <div class="img-icon">
+                        <ul class="menu">
+                          <li class="list">
+                            <div class="i-1">
+                              <i class="fa-solid fa-eye"></i>
+                            </div>
+                          </li>
+                          <li class="list">
+                            <div class="i-2">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="img-name text-center">
+                        <a href="#">Add to Card</a>
+                      </div>
+                    </div>
+                    <div class="shop-img-desp pt-3">
+                      <h5 class="text-center para">Women Maroon Top</h5>
+                      <p class="text-center para-1">
+                        <span>$975.00</span>$899.99
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-6">
+                <div class="coulmn">
+                  <div class="box-1-ol">
+                    <div class="shop-img-box">
+                      <div class="img-sec-box">
+                        <img src="../Image/shop-3.jpg" alt="" class="img-1" />
+                        <img src="../Image/shop-33.jpg" alt="" class="img-2" />
+                      </div>
+                      <div class="img-icon">
+                        <ul class="menu">
+                          <li class="list">
+                            <div class="i-1">
+                              <i class="fa-solid fa-eye"></i>
+                            </div>
+                          </li>
+                          <li class="list">
+                            <div class="i-2">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="img-name text-center">
+                        <a href="#">Add to Card</a>
+                      </div>
+                    </div>
+                    <div class="shop-img-desp pt-3">
+                      <h5 class="text-center para">Women Maroon Top</h5>
+                      <p class="text-center para-1">
+                        <span>$975.00</span>$899.99
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-6">
+                <div class="coulmn">
+                  <div class="box-1-ol">
+                    <div class="shop-img-box">
+                      <div class="img-sec-box">
+                        <img src="../Image/shop-4.jpg" alt="" class="img-1" />
+                        <img src="../Image/shop-44.jpg" alt="" class="img-2" />
+                      </div>
+                      <div class="img-icon">
+                        <ul class="menu">
+                          <li class="list">
+                            <div class="i-1">
+                              <i class="fa-solid fa-eye"></i>
+                            </div>
+                          </li>
+                          <li class="list">
+                            <div class="i-2">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="img-name text-center">
+                        <a href="#">Add to Card</a>
+                      </div>
+                    </div>
+                    <div class="shop-img-desp pt-3">
+                      <h5 class="text-center para">Women Maroon Top</h5>
+                      <p class="text-center para-1">
+                        <span>$975.00</span>$899.99
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-6">
+                <div class="coulmn">
+                  <div class="box-1-ol">
+                    <div class="shop-img-box">
+                      <div class="img-sec-box">
+                        <img src="../Image/shop-5.jpg" alt="" class="img-1" />
+                        <img src="../Image/shop-55.jpg" alt="" class="img-2" />
+                      </div>
+                      <div class="img-icon">
+                        <ul class="menu">
+                          <li class="list">
+                            <div class="i-1">
+                              <i class="fa-solid fa-eye"></i>
+                            </div>
+                          </li>
+                          <li class="list">
+                            <div class="i-2">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="img-name text-center">
+                        <a href="#">Add to Card</a>
+                      </div>
+                    </div>
+                    <div class="shop-img-desp pt-3">
+                      <h5 class="text-center para">Women Maroon Top</h5>
+                      <p class="text-center para-1">
+                        <span>$975.00</span>$899.99
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-6">
+                <div class="coulmn">
+                  <div class="box-1-ol">
+                    <div class="shop-img-box">
+                      <div class="img-sec-box">
+                        <img src="../Image/shop-6.jpg" alt="" class="img-1" />
+                        <img src="../Image/shop-6.jpg" alt="" class="img-2" />
+                      </div>
+                      <div class="img-icon">
+                        <ul class="menu">
+                          <li class="list">
+                            <div class="i-1">
+                              <i class="fa-solid fa-eye"></i>
+                            </div>
+                          </li>
+                          <li class="list">
+                            <div class="i-2">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="img-name text-center">
+                        <a href="#">Add to Card</a>
+                      </div>
+                    </div>
+                    <div class="shop-img-desp pt-3">
+                      <h5 class="text-center para">Women Maroon Top</h5>
+                      <p class="text-center para-1">
+                        <span>$975.00</span>$899.99
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-6">
+                <div class="coulmn">
+                  <div class="box-1-ol">
+                    <div class="shop-img-box">
+                      <div class="img-sec-box">
+                        <img src="../Image/shop-7.jpg" alt="" class="img-1" />
+                        <img src="../Image/shop-77.jpg" alt="" class="img-2" />
+                      </div>
+                      <div class="img-icon">
+                        <ul class="menu">
+                          <li class="list">
+                            <div class="i-1">
+                              <i class="fa-solid fa-eye"></i>
+                            </div>
+                          </li>
+                          <li class="list">
+                            <div class="i-2">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="img-name text-center">
+                        <a href="#">Add to Card</a>
+                      </div>
+                    </div>
+                    <div class="shop-img-desp pt-3">
+                      <h5 class="text-center para">Women Maroon Top</h5>
+                      <p class="text-center para-1">
+                        <span>$975.00</span>$899.99
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-6">
+                <div class="coulmn">
+                  <div class="box-1-ol">
+                    <div class="shop-img-box">
+                      <div class="img-sec-box">
+                        <img src="../Image/shop-8.jpg" alt="" class="img-1" />
+                        <img src="../Image/shop-88.jpg" alt="" class="img-2" />
+                      </div>
+                      <div class="img-icon">
+                        <ul class="menu">
+                          <li class="list">
+                            <div class="i-1">
+                              <i class="fa-solid fa-eye"></i>
+                            </div>
+                          </li>
+                          <li class="list">
+                            <div class="i-2">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="img-name text-center">
+                        <a href="#">Add to Card</a>
+                      </div>
+                    </div>
+                    <div class="shop-img-desp pt-3">
+                      <h5 class="text-center para">Women Maroon Top</h5>
+                      <p class="text-center para-1">
+                        <span>$975.00</span>$899.99
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 sam col-6">
+                <div class="coulmn">
+                  <div class="box-1-ol">
+                    <div class="shop-img-box">
+                      <div class="img-sec-box">
+                        <img src="../Image/shop-7.jpg" alt="" class="img-1" />
+                        <img src="../Image/shop-77.jpg" alt="" class="img-2" />
+                      </div>
+                      <div class="img-icon">
+                        <ul class="menu">
+                          <li class="list">
+                            <div class="i-1">
+                              <i class="fa-solid fa-eye"></i>
+                            </div>
+                          </li>
+                          <li class="list">
+                            <div class="i-2">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="img-name text-center">
+                        <a href="#">Add to Card</a>
+                      </div>
+                    </div>
+                    <div class="shop-img-desp pt-3">
+                      <h5 class="text-center para">Women Maroon Top</h5>
+                      <p class="text-center para-1">
+                        <span>$975.00</span>$899.99
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-carousel owl-theme col-11" id="owl-2">
+              <div class="item iim">
+                <img src="../image/Discount-imh.jpg" alt="" />
+              </div>
+              <div class="item iim">
+                <img src="../image/gl-2.jpg" alt="" />
+              </div>
+              <div class="item iim">
+                <img src="../image/gl-3.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- shop us section end -->
+    <!-- Footer section start -->
+    <div class="container-fliud B-G mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-12 footer-sec-box pt-5">
+            <h2 class="mb-4">SPRY<span>S</span>TORE</h2>
+            <p class="mb-5">
+              Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam
+              sequi optio consectetur.Vivamus a ligula quam. Ut blandit eu leo
+              non suscipit.
+            </p>
+            <div class="I-C-O-N-S">
+              <div class="fb"><i class="fa-brands fa-facebook-f"></i></div>
+              <div class="tw"><i class="fa-brands fa-twitter"></i></div>
+              <div class="g"><i class="fa-brands fa-google-plus-g"></i></div>
+              <div class="in"><i class="fa-brands fa-instagram"></i></div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-12 footer-sec-box-2 pt-5">
+            <h3 class="text-white">
+              Women's Day Special Offer All Branded Sandals are Flat 50%
+              Discount
+            </h3>
+            <div class="sub-coulmn">
+              <div class="sub-one-left">
+                <h6>usefule links</h6>
+                <div class="footer-ul">
+                  <ul class="ul">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                  </ul>
+                  <ul class="ul">
+                    <li>Careers</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms</li>
+                    <li>Support</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="sub-two-right">
+                <h6>our store</h6>
+                <p class="mb-5">
+                  49436 Broaddus Honey Court Avenue, Madisonville KY 95020,
+                  United States of America
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer section end -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../owl-ca/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#owl-1").owlCarousel({
+          loop: true,
+          // margin: 10,
+          autoplay: true,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            480: {
+              items: 1,
+            },
+            500: {
+              items: 1,
+            },
+            600: {
+              items: 1,
+            },
+            1000: {
+              items: 1,
+            },
+          },
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#owl-2").owlCarousel({
+          loop: true,
+          // margin: 10,
+          autoplay: true,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            480: {
+              items: 1,
+            },
+            500: {
+              items: 1,
+            },
+            600: {
+              items: 1,
+            },
+            1000: {
+              items: 1,
+            },
+          },
+        });
+      });
+      </script>
+      <script src="../../../Bootstrap/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <script src="../javascript/products.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

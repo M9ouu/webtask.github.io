@@ -1,0 +1,216 @@
+/* shop us section start */
+h1 {
+    font-weight: 700;
+  }
+  h1 span {
+    color: coral;
+  }
+  .shop-sec{
+      padding: 6rem 0;
+  }
+  .sam-text{
+    position: relative;
+  }
+  .sam-text h5{
+    position: absolute;
+    top: 15px;
+    right: 27rem;
+  }
+  .sam-text h5 span{
+    color: #121111;
+    margin: 0 20px;
+  }
+  .sam-text a{
+    text-decoration: none;
+    color: #121111;
+  }
+  p {
+    letter-spacing: 1.5px;
+  }
+  .box-1 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .box-2 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  h6 a{
+    color: #121111;
+    text-decoration: none;
+    transition: .4s;
+  }
+  h6 a:hover{
+    color: orange;
+  }
+  .box-3 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .box-4 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .box-5 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .box-6 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .box-1 {
+    text-align: center;
+    position: relative;
+  }
+  .box-2 {
+    text-align: center;
+    position: relative;
+  }
+  .box-3 {
+    text-align: center;
+    position: relative;
+  }
+  .box-4 {
+    text-align: center;
+    position: relative;
+  }
+  .box-5 {
+    text-align: center;
+    position: relative;
+  }
+  .box-6 {
+    text-align: center;
+    position: relative;
+  }
+  .mt-4 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .desp-box h2{
+    font-size: 40px;
+  }
+  .rating-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .rating-box .icon{
+    color: orange;
+  }
+  .icon-desp{
+    position: relative;
+  }
+  .icon-desp h6{
+    position: absolute;
+    top: -10px;
+    left: 0;
+  }
+  .price-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .but-n{
+    display: flex;
+    gap: 20px;
+  }
+  .but-n button{
+    padding: 12px 35px;
+    border-radius: 18px;
+    border: none;
+  }
+  .bll{
+    background-color: #121111;
+    transition: .4s;
+  }
+  .bll a{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .bll:hover{
+    background-color: #ff7315;
+  }
+  .orr{
+    background-color: #ff7315;
+    transition: .4s;
+  }
+  .orr:hover{
+    background-color: #121111;
+  }
+  .orr a{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .but-n button a{
+    text-decoration: none;
+  }
+  .bag-desp{
+    display: flex;
+    align-items: center;
+    background-color: #f5f0f0;
+    border-right: 5px solid #a09292;
+    justify-content: space-between;
+    border-radius: 3px;
+  }
+  /* boostrap btn */
+  .prii input{
+    width: 40px;
+  }
+  .prii h5{
+    font-size: 14px;
+  }
+  .parr h5{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .tott{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .che span{
+  color: #ff7315;
+  }
+  .img-boxx{
+    width: 500px !important;
+    height: 480px !important;
+    object-fit: cover;
+
+  }
+  .img-boxx img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 10px !important;
+  }
+  .icon-n{
+    display: flex;
+    gap: 5px;
+    color: #ff7315;
+  }
+  /* boostrap btn */
+  @media screen and (max-width:576px) {
+    .sam-text h5{
+    display: none;
+    }
+    .desp-box h2{
+      font-size: 30px;
+    }
+    .img-box img{
+      width: 100%;
+      height: 100%;
+    }
+    .but-n{
+      display: flex;
+      gap: 5px;
+    }
+  }

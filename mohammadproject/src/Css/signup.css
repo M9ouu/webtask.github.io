@@ -1,0 +1,133 @@
+.container-fluid{
+    background-color: rgba(235, 231, 226, 0.648);
+    height: auto !important;
+}
+.padi{
+    margin: 0 30rem;    
+}
+.g-but button{
+    padding: 8px 72px;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.g-but button h6{
+    color: rgb(83, 83, 83);
+}
+h6{
+    margin: 0;
+}
+.but{
+    display: flex;
+    flex-direction: column;
+    gap: 0 !important;
+}
+.t-but button{
+    padding: 8px 72px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: black;
+}
+.t-but button i{
+    color: white;
+}
+.t-but button h6{
+    color: white;
+}
+.f-but button{
+    padding: 8px 64px;
+    border: 1px solid rgb(69, 31, 194);
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(69, 31, 194);
+}
+.f-but button i{
+    color: white;
+}
+.f-but button h6{
+    color: white;
+}
+.form{
+    border-radius: 6px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.279);
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.pass{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: black;
+    font-weight: 600;
+}
+.la{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.la span{
+    font-size: 14px;
+    color: blue;
+}
+input{
+    border: 1px solid rgb(167, 164, 164);
+    border-radius: 4px;
+    padding: 6px 10px;
+}
+.log-in{
+    width: 100%;
+    border-radius: 4px;
+    padding: 6px 10px;
+    border: none;
+    color: white;
+    background-color: rgb(69, 171, 235);
+}
+.last-text{
+    text-align: center;
+}
+.last-text button{
+    border: none;
+}
+.last-text h6{
+ font-size: 14px;   
+}
+.last-text button{
+    color: blue;
+}
+p{
+    font-size: 14px;
+}
+.check-b{
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+}
+.last-text{
+    text-align: center;
+}
+.last-text button{
+    border: none;
+}
+.last-text h6{
+ font-size: 14px;   
+}
+.last-text button{
+    color: blue;
+}

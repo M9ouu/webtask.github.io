@@ -1,0 +1,333 @@
+/* search box */
+
+
+.bg{
+    background-color: white;
+}
+
+.sec1{
+ 
+}
+.navbaar{
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+.pad{
+    padding: 0 10px !important;
+}
+
+.icons{
+    display: none;
+} 
+.more-d{
+  justify-content: right;
+  text-decoration: none;
+  color: #121111;
+  font-weight: 600;
+  display: flex;
+  gap: 5px;
+  transition: .6s;
+}
+.more-d span{
+  transition: .6s;
+  transform: translateX(0px)
+}
+.more-d:hover span{
+display: block;
+transform: translateX(5px);
+color: #ff7319;
+}
+.more-d:hover{
+  color: #121111;
+}
+/* cloth sec start */
+.card-body {
+  padding: 0;
+}
+.card {
+  padding: 10px;
+  margin: 12px 5px;
+  border-radius: 18px;
+}
+.card img {
+  border-radius: 18px;
+}
+span {
+  color: #b0b0b0;
+  font-weight: 500;
+}
+.card-body h5 {
+  font-weight: 700;
+  cursor: pointer;
+}
+.star i {
+  color: goldenrod;
+}
+.pri {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price h4 {
+  color: darkgreen;
+}
+.cart {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkgreen;
+  background-color: rgb(182, 227, 182);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.cart:hover {
+  color: rgb(182, 227, 182);
+  background-color: darkgreen;
+}
+.spa{
+  /* margin-left: 1rem; */
+}
+.card img{
+
+  object-fit: cover !important;
+}
+.img-box{
+  
+  object-fit: cover;
+  overflow: hidden;
+}
+.card{
+  overflow: hidden !important;
+}
+
+
+/* cloth section end */
+
+@media screen and (max-width:576px){
+    .me-auto{
+        display: none;
+    }
+    .icons{
+        display: block;
+        display: flex;
+    }
+    .icons i{
+        color: rgba(255, 255, 255, .55);
+
+    }
+    .left-box{
+        background-color: #f7f7f7;
+        padding: 0 0px 0 0px;
+        height: 50vh;
+        overflow-Y: auto;
+        position: sticky;
+        z-index: 1;
+        top: 0px;
+        left: 0;
+    }
+    .navbaar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+     
+    }
+} 
+/* shop us section start */
+h1 {
+    font-weight: 700;
+  }
+  h1 span {
+    color: coral;
+  }
+  .shop-sec{
+      padding: 6rem 0;
+  }
+  p {
+    letter-spacing: 1.5px;
+  }
+  .box-1 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .box-2 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  h6 a{
+    color: #121111;
+    text-decoration: none;
+    transition: .4s;
+  }
+  h6 a:hover{
+    color: orange;
+  }
+  .box-3 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .box-4 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .box-5 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .box-6 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .box-1 {
+    text-align: center;
+    position: relative;
+  }
+  .box-2 {
+    text-align: center;
+    position: relative;
+  }
+  .box-3 {
+    text-align: center;
+    position: relative;
+  }
+  .box-4 {
+    text-align: center;
+    position: relative;
+  }
+  .box-5 {
+    text-align: center;
+    position: relative;
+  }
+  .box-6 {
+    text-align: center;
+    position: relative;
+  }
+  .mt-4 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .pro-detail {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    background-color: rgba(16, 16, 16, 0.447);
+    transform: scale(0);
+    transform: rotate3d(-1, 1, 0, 90deg);
+    transition: 0.6s;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-1:hover .pro-detail {
+    transform: scale(1);
+    transform: rotatex(0deg);
+  }
+  .box-2:hover .pro-detail {
+    transform: scale(1);
+    transform: rotateX(0deg);
+  }
+  .box-3:hover .pro-detail {
+    transform: scale(1);
+    transform: rotateX(0deg);
+  }
+  .box-4:hover .pro-detail {
+    transform: scale(1);
+    transform: rotateX(0deg);
+  }
+  .box-5:hover .pro-detail {
+    transform: scale(1);
+    transform: rotateX(0deg);
+  }
+  .box-6:hover .pro-detail {
+    transform: scale(1);
+    transform: rotateX(0deg);
+  }
+  .pro-detail:hover {
+    color: orange;
+  }
+  @media screen and (max-width: 576px) {
+    .pro-detail {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      position: absolute;
+      top: 12px;
+      left: 34%;
+    }
+  }
+/* shop us section end */
+/* 30% discount section start */
+.back-colo {
+    background-color: #70707037;
+  }
+  .pad {
+    padding: 80px 40px;
+  }
+  .right-discount-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  .left-discount-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .left-discount-box h2 {
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .left-discount-box h2 span {
+    color: rgb(236, 125, 33);
+  }
+  .text-pe {
+    padding: 60px 25px 0 20px;
+  }
+  .shop-b button {
+    padding: 0.8rem 1.8rem;
+    border-radius: 30px;
+    font-weight: 600;
+    border: none;
+  }
+  .shop-b:hover button {
+    background-color: rgb(236, 125, 33);
+    color: white;
+  }
+  .box-des{
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .box-des span{
+    color: #ff7319;
+    font-weight: 700;
+  }
+  .box-des p{
+    font-size: 18px;
+    line-height: 20px;
+  }
+  @media screen  and (max-width:576px){
+    .pad {
+      padding: 40px 0px;
+    }
+    .coulmn{
+      padding: 0 !important;
+    }    
+  }
+/* 30% discount section end */

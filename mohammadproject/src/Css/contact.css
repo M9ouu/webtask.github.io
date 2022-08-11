@@ -1,0 +1,108 @@
+/* ===========Contact sec-1 start========= */
+.text-left h3{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .text-left h3 span{
+    color: #ff7315;
+  }
+  .text-left p span{
+    color: #ff7315;
+  }
+  .text-left p{
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .text-left h6{
+    color: #6b778d;
+  }
+  .text-left h5{
+    font-size: 22px;
+    font-weight: 600;
+  }
+ .bus{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+ .psa{
+    padding: 48px 80px;
+ }
+  iframe{
+    width: 100% ;
+    min-height: 100% ;
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  @media screen and (max-width:576px) {
+    .psa{
+        padding: 48px 0px;
+     }
+  }
+  /* ==========contact sec-1 end======= */
+  /* ==========Contact sec-2 start======== */
+  .back-img{
+    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/30-04-2020/sprystore-liberty-demo_Free/1528800197/web/assets/images/banner4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(0, 0, 0);
+    /* background-blend-mode: overlay; */
+    background-attachment: fixed;
+  }
+  .form h2{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .input-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+  .input-grid input{
+    background-color: white;
+    border: none;
+    color: #6b778d;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 16px 20px;
+    width: 100%;
+    border-radius: 6px;
+  }
+  .input-textaria textarea{
+    resize: none;
+    min-height: 100px;
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 6px;
+    padding: 15px 15px;
+  }
+  form button{
+   padding: 14px 60px;
+   background: #ff7315;
+   border-radius: 6px;
+   transition: .4s;
+  }
+  form button a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    transition: .4s;
+  }
+  form button:hover{
+    background-color: #cd641f;
+  }
+  form button a:hover{
+    color: black;
+  }
+  @media screen and (max-width:576px) {
+    .input-grid{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap: 15px;
+      }
+  }
+  /* ==========Contact sec-2 end======== */
+
+  /* ===========Contact sec-1 end========= */

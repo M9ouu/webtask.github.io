@@ -1,0 +1,205 @@
+/* <!-- =======About Sec-1 start========= --> */
+.about-1-left{
+    padding: 0 15px;
+  }
+  .bg{
+    background-color: white;
+  }
+  .about-1-left h2{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .about-1-left h2 span{
+    color: #ff7315;
+  }
+  .about-1-right{
+    padding: 0 15px;
+  }
+  .about-1-left p{
+    color: rgba(65, 65, 65, 0.785);
+  }
+  button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+  button{
+    padding: 12px 30px;
+    border-radius: 30px;
+    background-color: black;
+    transition: .4s;
+    border: none;
+  }
+  .about-1-right img{
+    border-radius: 6px;
+  }
+  .btnn:hover{
+    background-color: #ff7315;
+    color: white;
+  }
+  .btnn a:hover{
+    color: white;
+  }
+  @media screen and (max-width:576px) {
+    .about-1-left h2{
+      font-size: 35px;
+      font-weight: 700;
+    }
+    .about-1-right img{
+      width: 100%;
+      height: 100%;
+      margin-top: 20px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+  }
+  /* <!-- =======About Sec-2 start========= --> */
+  .back-col{
+    background-color: #f4f4f4;
+  }
+  .left-img-box{
+    overflow: hidden;
+  }
+  .left-img-box img{
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  .right-text-box{
+    padding: 0 80px 0 40px;
+  }
+  .right-text-box h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+  .right-text-box h2 span{
+    color: #ff7315;
+  }
+  .right-text-box p{
+    color: #6b778d;
+  }
+  /* <!-- =======About Sec-2 end========= -->*/
+  
+  /* <!-- =======About Sec-3 Start====== --> */
+  .qul-box-main{
+    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/30-04-2020/sprystore-liberty-demo_Free/1528800197/web/assets/images/banner4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color:black;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+  }
+  .qul-box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .qul-box i{
+    font-size: 26px;
+    color: #ff7315;
+  }
+  .qul-box h3{
+    font-size: 26px;
+    line-height: 27px;
+    font-weight: 700;
+    color: white;
+    transition: .4s;
+  }
+  .qul-box h3:hover{
+    color: #ff7315;
+  }
+  .qul-p{
+    color: rgba(255, 255, 255, 0.863);
+  }
+  @media screen and (max-width:576px) {
+    .right-text-box{
+      padding:  0px 5px;
+    }
+  }
+  /* <!-- =======About Sec-3 end====== --> */
+  
+  /*  <!-- =======About sec-4 start======== -->  */
+  
+  .back-gra{
+    background-color: #f4f4f4;
+  }
+  .offri-box{
+    text-align: center;
+  }
+  .offri-box h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ff7315;
+  }
+  .offri-box h3{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .offri-box h3 span{
+    color: #ff7315;
+  }
+  .pa{
+    padding: 0 10px;
+  }
+  .box-offr{
+    padding: 50px 60px;
+    text-align: center;
+    background-color: white;
+    transition: .4s;
+    border-radius: 6px;
+  }
+  .box-offr:hover{
+    background-color: #ff73152d;
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.16);
+  }
+  .box-offr i{
+    font-size: 44px;
+    color: #ff7315;
+  }
+  .box-offr h4{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  /*  <!-- =======About sec-4 end======== -->  */
+  /* <!-- ======About sec-5 start====== --> */
+  
+  .img-box{
+    overflow: hidden !important;
+    position: relative;
+  }
+  .img-box img{
+    border-radius: 8px;
+  }
+  .col-4{
+    padding: 0!important;
+  }
+  .img-desp{
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+    right: 70px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+  }
+  .img-desp h4{
+    transition: .4s;
+  }
+  .img-desp h4:hover{
+    color: #ff7315;
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .icon i{
+    transition: .4s;
+  }
+  .icon i:hover{
+    color: #ff7315;
+  }
+  /* <!-- ======About sec-5 start====== --> */

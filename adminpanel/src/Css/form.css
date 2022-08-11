@@ -1,0 +1,8 @@
+.but{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ed{
+    width: 4rem;
+}

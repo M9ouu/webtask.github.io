@@ -51,20 +51,41 @@ span{
     justify-content: space-between;
     gap: 0px;
 }
-.user-icon{
-    width: 36px;
-    height: 36px;
-    color: rgb(253, 249, 249);
-    background-color: rgba(255, 255, 255, 0.141);
-    border-radius: 50%;
-    display: flex;
-    margin: 0 0 0 20rem;
-    justify-content: center;
-    align-items: center;
-    transition: .6s;  
+/* user login */
+.user-menu{
+  display: block;
+  position: fixed;
+  top: 18%;
+  right: -50%;
+  width: 30%;
+  height: 100vh;
+  background-color: #dabcbc;
+  transition: .6s;
 }
-.user-icon:hover{
-    background-color: coral;
+.open-nav{
+  right: 0;
+}
+/* user login */
+
+.my-icon{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgba(255, 255, 255, 0.141);
+  color: white;
+  margin-left: 65%;
+  /* transition: ease-in-out;  */
+}
+.my-icon i{
+  transition: .6;
+
+}
+.my-icon:hover {
+  background-color: coral;
+  color: white;
 }
 .my-cart{
     border: none;
@@ -286,7 +307,7 @@ font-weight: 600;
   display: none;
 }
 /* user Form */ 
-.offcanvas {
+/* .offcanvas {
   width: 30% !important;
   padding: 0 25px;
   background-color: #3a3535;
@@ -306,7 +327,7 @@ font-weight: 600;
   font-size: 33px;
   font-weight: 700;
   text-align: center;
-}
+} */
 .form-main-box {
   background-color: #232020;
   border-radius: 6px;

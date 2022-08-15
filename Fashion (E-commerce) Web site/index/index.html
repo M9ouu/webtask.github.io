@@ -145,7 +145,7 @@
               </button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="../page/Blog.html">Blog</a></li>
-                <li><a class="dropdown-item" href="../page/Blog Single.html">Blog Single</a></li>
+                <li><a class="dropdown-item" href="../page/About.html">Blog Single</a></li>
               </ul>
             </div>
             <span><a class="text-dark" href="../page/Contact.html">Contact</a></span>
@@ -158,52 +158,37 @@
           <!-- Right -->
           <div class="top-right-content">
             <div class="cart-icon">
+              <div class="my-icon" id="menu-btn">
               <i class="fa-solid fa-user"></i>
+               </div>
               <!-- user Form -->
-              <!-- <div class="user-icon">
-                <button
-                class="btn ora"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasRight"
-                aria-controls="offcanvasRight"
-              >
-                <i class="fa-solid fa-user"></i>
-              </button>
-            </div>
-              <div
-                class="offcanvas offcanvas-end"
-                tabindex="-1"
-                id="offcanvasRight"
-                aria-labelledby="offcanvasRightLabel"
-              >
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+              <div class="user-menu">
+                <div class="">              
                   <button
                     type="button"
                     class="btn-close"
                     data-bs-dismiss="offcanvas"
                     aria-label="Close"
+                    id="close-btn"
                   ></button>
                 </div>
-                <div class="offcanvas-body">
-                  <h2 class="mt-5 mb-4">Login Now</h2>
-                  <div class="form-main-box p-5">
+                <div class="">
+                  <h2 class="mt-5 mb-4 text-center">Login Now</h2>
+                  <div class="form-main-box p-5 m-3">
                     <form action="#">
                       <label for="#" class="mb-2">EmailAddress</label>
-                      <input type="text" />
-                      <small class="mb-3">We'll never share your email with anyone</small>
+                      <input type="email" />
                       <label for="#" class="mb-2 mt-3">Password</label>
                       <input type="password" />
                       <div class="check-b mt-3 mb-3">
                         <input type="checkbox" />
                         <label for="#">Remember Me</label>
                       </div>
-                      <button><a href="#">Sign up</a></button>
+                      <button id="submit"><a href="#">Sign up</a></button>
                     </form>
                   </div>
                 </div>
-              </div> -->
+              </div>
               <!-- user Form -->
               <div class="my-cart">
                 <h4>My Cart<i class="fa-solid fa-cart-arrow-down"></i></h4>
@@ -895,6 +880,7 @@
       </div>
     </div>
     <!-- Footer section end -->
+    <script src="../javascript/home.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
